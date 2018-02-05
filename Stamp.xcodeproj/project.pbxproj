@@ -14,6 +14,11 @@
 		5E0339261F65379700C4D878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0339241F65379700C4D878 /* LaunchScreen.storyboard */; };
 		5E0339311F65379700C4D878 /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0339301F65379700C4D878 /* StampTests.swift */; };
 		5E03393C1F65379700C4D878 /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E03393B1F65379700C4D878 /* StampUITests.swift */; };
+		5E0339591F65400800C4D878 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E0339541F65400800C4D878 /* haikei.jpg */; };
+		5E03395B1F65400800C4D878 /* hukidashi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0339561F65400800C4D878 /* hukidashi2.png */; };
+		5E03395C1F65400800C4D878 /* hukidashi3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0339571F65400800C4D878 /* hukidashi3.png */; };
+		5E03395D1F65400800C4D878 /* hurt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E0339581F65400800C4D878 /* hurt.jpg */; };
+		5E03395F1F6540FB00C4D878 /* hukidashi1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E03395E1F6540FB00C4D878 /* hukidashi1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		5E0339371F65379700C4D878 /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E03393B1F65379700C4D878 /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		5E03393D1F65379700C4D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0339541F65400800C4D878 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		5E0339561F65400800C4D878 /* hukidashi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hukidashi2.png; sourceTree = "<group>"; };
+		5E0339571F65400800C4D878 /* hukidashi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hukidashi3.png; sourceTree = "<group>"; };
+		5E0339581F65400800C4D878 /* hurt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hurt.jpg; sourceTree = "<group>"; };
+		5E03395E1F6540FB00C4D878 /* hukidashi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hukidashi1.png; path = ../hukidashi1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		5E03391A1F65379700C4D878 /* Stamp */ = {
 			isa = PBXGroup;
 			children = (
+				5E0339531F65400800C4D878 /* stamp素材 */,
 				5E03391B1F65379700C4D878 /* AppDelegate.swift */,
 				5E03391D1F65379700C4D878 /* ViewController.swift */,
 				5E03391F1F65379700C4D878 /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				5E03393D1F65379700C4D878 /* Info.plist */,
 			);
 			path = StampUITests;
+			sourceTree = "<group>";
+		};
+		5E0339531F65400800C4D878 /* stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				5E0339541F65400800C4D878 /* haikei.jpg */,
+				5E03395E1F6540FB00C4D878 /* hukidashi1.png */,
+				5E0339561F65400800C4D878 /* hukidashi2.png */,
+				5E0339571F65400800C4D878 /* hukidashi3.png */,
+				5E0339581F65400800C4D878 /* hurt.jpg */,
+			);
+			path = "stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +255,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0339591F65400800C4D878 /* haikei.jpg in Resources */,
+				5E03395C1F65400800C4D878 /* hukidashi3.png in Resources */,
+				5E03395D1F65400800C4D878 /* hurt.jpg in Resources */,
 				5E0339261F65379700C4D878 /* LaunchScreen.storyboard in Resources */,
 				5E0339231F65379700C4D878 /* Assets.xcassets in Resources */,
+				5E03395F1F6540FB00C4D878 /* hukidashi1.png in Resources */,
 				5E0339211F65379700C4D878 /* Main.storyboard in Resources */,
+				5E03395B1F65400800C4D878 /* hukidashi2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
