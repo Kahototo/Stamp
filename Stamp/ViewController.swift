@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     //スタンプ画像の名前が入った配列
-    var imageNameArray: [String] = ["hukidashi1.png", "hukidashi2.png", "hukidashi3.png", "hurt.jpg"]
+    var imageNameArray: [String] = ["star1.png", "star2.png", "star3.png", "star4.png"]
     
     //選択しているスタンプ画像の番号
     var imageIndex: Int = 0
@@ -49,6 +49,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
             
         }
     }
+    
     
     @IBAction func selectedFirst() {
         imageIndex = 1
